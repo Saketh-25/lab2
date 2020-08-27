@@ -1,0 +1,25 @@
+
+#program to find largest number of given numbers
+
+num1 = float (input("Enter first number:")) 
+num2 = float(input("Enter second number:"))
+num3 = float (input("Enter third number:"))
+
+if (num1 >= num2) and (num1 >= num3):
+ largest  = num1
+elif (num2 >=num1) and (num2 >= num3):
+ largest = num2
+else:
+ largest = num3
+
+print("Then smallest number is", largest)
+
+
+
+
+output:
+
+Enter first number:12
+Enter second number:14
+Enter third number:11
+Then smallest number is 14.0
